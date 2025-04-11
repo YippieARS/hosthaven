@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Form Registration</title>
+</head>
+<body>
+    <h2>Event Form Registration</h2>
+    <form action="register.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="matrics_id">Matrics ID</label>
+        <input type="text" name="matrics_id" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="event_title">Event Title</label>
+        <input type="text" name="event_title" required><br><br>
+
+        <label for="event_datetime">Event Date/Time</label>
+        <input type="datetime-local" name="event_datetime" required><br><br>
+
+        <label for="event_description">Event Description</label>
+        <textarea name="event_description" required></textarea><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
